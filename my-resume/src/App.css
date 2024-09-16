@@ -1,0 +1,10 @@
+body {
+  background: #ffffff;
+}
+a {
+  color: #000;
+}
+
+html, body {
+  overflow-x: hidden; /* Prevent any horizontal scrolling */
+}
