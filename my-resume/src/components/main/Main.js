@@ -43,12 +43,12 @@ const Main = () => {
     <div style={styles.buttonContainer}>
   <a href="https://www.linkedin.com/in/hasan-ali-webdev/" target="_blank" rel="noopener noreferrer" style={styles.iconLink}>
     <button style={styles.primaryButton}>
-      <FaLinkedin style={styles.icon} /> View LinkedIn
+      <FaLinkedin style={styles.icon} />
     </button>
   </a>
   <a href="https://github.com/hasan-web" target="_blank" rel="noopener noreferrer" style={styles.iconLink}>
     <button style={styles.secondaryButton}>
-      <FaGithub style={styles.icon} /> View GitHub
+      <FaGithub style={styles.icon} />
     </button>
   </a>
 </div>
@@ -94,9 +94,9 @@ const styles = {
   primaryButton: {
     padding: '0.8rem 1.6rem',
     borderRadius: '25px',
-    border: '2px solid #ff5722',
+    border: '2px solid #0077B5',
     backgroundColor: 'transparent',
-    color: '#ff5722',
+    color: '#0077B5',
     cursor: 'pointer',
     fontWeight: 600,
     transition: 'background-color 0.3s ease',
@@ -130,7 +130,7 @@ const styles = {
     },
   },
   icon: {
-    fontSize: '1.3rem',
+    fontSize: '1.6rem',
   },
   iconLink: {
     textDecoration: 'none',
