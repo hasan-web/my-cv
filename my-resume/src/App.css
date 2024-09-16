@@ -8,3 +8,15 @@ a {
 html, body {
   overflow-x: hidden; /* Prevent any horizontal scrolling */
 }
+
+a:hover {
+  color: blue;
+}
+
+.git-link:hover {
+  color: #000;
+}
+
+.lnkdn {
+  color : '#0077B5'
+}
